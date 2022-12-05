@@ -34,7 +34,7 @@ class GUI:
         ]
         clasificator_column = [
             [sg.Text("Elija el tipo de clasificación:")],
-            [sg.OptionMenu(values=('Vegetales'),  k='-OPTION MENU-', default_value="Vegetables")],
+            [sg.OptionMenu(values=('Vegetales', 'other'),  k='-OPTION MENU-', default_value="Vegetables")],
             [sg.Text("La Red Neuronal esta entrenada para detectar las siguientes clases:")],
             [sg.Text(" - Broccoli")],
             [sg.Text(" - Capsicum")],
